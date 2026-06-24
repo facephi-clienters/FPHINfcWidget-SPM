@@ -29,7 +29,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/facephi-clienters/SDK-FPHIDesignSystemResources-SPM.git", .upToNextMinor(from: "2.7.4")),
+        .package(url: "https://github.com/facephi-clienters/SDK-FPHIDesignSystemResources-SPM.git", .upToNextMinor(from: "2.7.5")),
         .package(url: "https://github.com/facephi-clienters/FPBTokenizer-SPM.git", .upToNextMajor(from: "4.0.4")),
         .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMajor(from: "0.5.6")),
         .package(url: "https://github.com/facephi-clienters/FPHILicenseActivator-SPM.git", exact: "1.0.2"),
@@ -58,8 +58,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FPHINfcWidget",
-            url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/FPHINfcWidget/0.3.4/FPHINfcWidget.zip",
-            checksum: "1f0bfc16d0f2284e1f2827ca238194559e76477e5a63ee8e78939e15cf4920ae"
+            url: "https://facephicorp.jfrog.io/artifactory/spm-dev-fphi/WIDGET/FPHINfcWidget/0.3.5/FPHINfcWidget.zip",
+            checksum: "70163d7ab7ea85862392d5d7fb29464e8adfa7b268fcad1a954111aadea9a35f"
         ),
     ]
 )
