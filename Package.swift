@@ -58,8 +58,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FPHINfcWidget",
-            url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/FPHINfcWidget/0.3.9/FPHINfcWidget.zip",
-            checksum: "d74793120f34a555c9103781602c1db19c486036220fde4113c0262bae06c805"
+            url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/FPHINfcWidget/0.3.10/FPHINfcWidget.zip",
+            checksum: "51f8742ecd29aecff28a81b55c3e23c351c2b6f994d7b91c66d20961371a9c6c"
         ),
     ]
 )
